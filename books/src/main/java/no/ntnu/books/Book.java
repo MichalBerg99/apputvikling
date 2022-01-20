@@ -10,6 +10,21 @@ public class Book {
   private String title;
 
   /**
+   * Instantiates a new Book.
+   *
+   * @param id            the id
+   * @param year          the year
+   * @param numberOfPages the number of pages
+   * @param title         the title
+   */
+  public Book(int id, int year, int numberOfPages, String title) {
+    this.id = id;
+    this.year = year;
+    this.numberOfPages = numberOfPages;
+    this.title = title;
+  }
+
+  /**
    * Gets id.
    *
    * @return the id

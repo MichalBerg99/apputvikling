@@ -10,6 +10,21 @@ public class Author {
   private int birthYear;
 
   /**
+   * Instantiates a new Author.
+   *
+   * @param id        the id
+   * @param firstName the first name
+   * @param lastName  the last name
+   * @param birthYear the birth year
+   */
+  public Author(int id, String firstName, String lastName, int birthYear) {
+    this.id = id;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.birthYear = birthYear;
+  }
+
+  /**
    * Gets id.
    *
    * @return the id
