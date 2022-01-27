@@ -95,4 +95,13 @@ public class Book {
   public void setTitle(String title) {
     this.title = title;
   }
+
+  /**
+   * Checks if book is a valid object
+   *
+   * @return {@code true} if books is valid, else return {@code false}
+   */
+  public boolean isValid() {
+    return id > 0 && title != null && !title.equals("");
+  }
 }
