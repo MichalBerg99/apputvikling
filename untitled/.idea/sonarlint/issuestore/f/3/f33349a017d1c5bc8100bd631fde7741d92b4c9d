@@ -1,0 +1,18 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(òñÊH
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(»º×¦ùÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(Ù¯Ğëşÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(·Ä¯üÿÿÿÿ
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(½«øãıÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ä½´äüÿÿÿÿ
+T	java:S106œ"9Replace this use of System.out or System.err by a logger.(€÷”ôıÿÿÿÿ
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(ä¾é•
+N	java:S106³"9Replace this use of System.out or System.err by a logger.(’šÍ{
+O	java:S106·"9Replace this use of System.out or System.err by a logger.(£€©­
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒî¤ùÿÿÿÿ8–Ğ“Ëí/
+0
+java:S1220""Move this file to a named package.
+a
+java:S2259d"FA "NullPointerException" could be thrown; "prevNode" is nullable here.(šûúŠşÿÿÿÿ
+\
+java:S2259v"FA "NullPointerException" could be thrown; "prevNode" is nullable here.(Áñæä

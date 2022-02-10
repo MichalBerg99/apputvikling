@@ -1,0 +1,30 @@
+
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢õÌÉþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¯ª¨ûúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ßœ‡íþÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(áð¬©
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(æðŸäùÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+M	java:S106/"9Replace this use of System.out or System.err by a logger.(ŽŒ‡.
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(±²Áèüÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(‰øŠ¬ùÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ˆÂËÚþÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(ÀÌ„ôýÿÿÿÿ
+y
+java:S1192
+"^Define a constant instead of duplicating this literal "Current Size of the list is: " 6 times.(ˆÂËÚþÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
