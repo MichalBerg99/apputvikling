@@ -23,10 +23,16 @@ public class DummyDataInitializer implements ApplicationListener<ApplicationRead
 
     /**
      * This method is called when the application is ready (loaded)
+     *
      * @param event Event which we don't use :)
      */
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
+        if (isDataImported()) {
+            logger.info("Data already exists, data will not be imported again");
+            return;
+        }
+
         logger.info("Importing test data...");
         Author mObama = new Author("Michele", "Obama", 1964);
         Author jPeterson = new Author("Jordan", "Peterson", 1962);
@@ -68,5 +74,14 @@ public class DummyDataInitializer implements ApplicationListener<ApplicationRead
         authorRepository.save(iSpector);
 
         logger.info("DONE importing test data");
+    }
+
+    /**
+     * Check if data is already imported
+     *
+     * @return {@code true} when database already contains data, {@code false} otherwise.
+     */
+    public boolean isDataImported() {
+        return genreRepository.count() > 0;
     }
 }
